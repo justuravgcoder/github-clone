@@ -1,12 +1,12 @@
 :root {
-    --primary-color: #F0F1F2;
-    --text-color: black;
+    --primary-color: #fafbfc;
+    --text-color: 24292e;
     --background-color: white;
-    --highlight-color: green;
+    --highlight-color: #2dba4e;
     --spacing: 1rem;
     --border-radius: 0.5rem;
     --font-size: 1rem;
-    --sidebar-width: 23rem; /* Adjust this value to change the sidebar width */
+    --sidebar-width: 21rem; /* Adjust this value to change the sidebar width */
     --navbar-height: 4.6rem; /* Adjust this based on your navbar's height */
     --separator-color: #ddd; /* Color of the separator line */
   }
@@ -73,7 +73,7 @@
     margin-right: var(--spacing);
     width: 18.75rem;
     padding: 0.3125rem 0.625rem;
-    border: 0.0625rem solid #ccc;
+    border: 0.0625rem solid --primary-color;
     border-radius: var(--border-radius);
     font-size: var(--font-size);
     font-family: Arial, sans-serif;
@@ -149,7 +149,7 @@
   .searchrepos {
     margin-top: 0.3125rem;
     width: calc(100% - var(--spacing) * 2);
-    border: 0.0625rem solid #ccc;
+    border: 0.0625rem solid --primary-color;
     border-radius: var(--border-radius);
     font-size: var(--font-size);
     font-family: Arial, sans-serif;
@@ -198,7 +198,7 @@
 
   .main-news {
     margin-top: 1rem;
-    border: .01rem black solid;
+    border: .01rem --primary-color;
     border-radius:3%;
     padding: .5rem;
     max-width: 600px;
@@ -247,6 +247,6 @@
   }
 
   .details{
-    background-color: #6666663a;
+    background-color: var(--primary-color);
     border-radius: 3%;
   }
