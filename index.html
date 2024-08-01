@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github</title>
+    <link rel="icon" href="assets/icons8-github-glyph-neue-32.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 10;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navleft">
+          <button class="menu">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+          <img src="assets/icons8-github-32.png" class="logo" alt="GitHub Logo" />
+          <a class="dashlink" href="#">Dashboard</a>
+        </div>
+
+        <div class="navright">
+          <input type="search" placeholder="Type / to search" class="searchbar" aria-label="Search" />
+          <button class="create">
+            <span class="material-symbols-outlined">add</span>
+            <span class="material-symbols-outlined">arrow_drop_down</span>
+          </button>
+          <button class="issues">
+            <span class="material-symbols-outlined">album</span>
+          </button>
+          <button class="pullreq">
+            <span class="material-symbols-outlined">sync</span>
+          </button>
+          <button class="notifications">
+            <span class="material-symbols-outlined">notifications</span>
+          </button>
+          <button class="pfp">
+            <img
+              class="pfpimage"
+              src="assets/pfp.jpg"
+              height="32"
+              width="32"
+              alt="Profile Picture"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <aside class="sidebar">
+      <section class="self">
+        <img src="assets/pfp.jpg" class="userphoto" height="25" width="25" alt="User Photo" />
+        <button class="username">
+          justuravgcoder
+          <span class="material-symbols-outlined">arrow_drop_down</span>
+        </button>
+      </section>
+      <section class="repos">
+        <div class="up">
+          <h4 class="top">Top Repositories</h4>
+          <button class="create-new">
+            <span class="material-symbols-outlined">book</span>
+            New
+          </button>
+        </div>
+        <input
+          type="search"
+          placeholder="Find a repository...."
+          class="searchrepos"
+          aria-label="Find a repository"
+        />
+      </section>
+      <section class="repolist">
+        <ol class="list">
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+          <li><img src="assets/pfp.jpg" height="20rem" width="20rem" alt="Profile Picture">justuravgcoder/Arbisoft-Internship</li>
+        </ol>
+        <a href="#" class="more-repos">Show More</a>
+      </section>
+    </aside>
+
+    <main class="main-page">
+      <section class="home-bar">
+        <div class="left-bar">
+          <h3>Home</h3>
+        </div>
+        <div class="right-bar">
+          <a href="#" class="feedback">Send Feedback</a>
+          <button class="filter">Filter</button>
+        </div>
+      </section>
+      
+      
+      <section class="main-news">
+        <div class="news">
+          <div class="top-header">
+            <img src="assets/icons8-github-32.png" alt="GitHub" class="icon">
+            <div class="text-container">
+              <div class="text-header">
+                <h4>Github/Github-Updates <span class="released">eleased</span></h4>
+                <span class="material-symbols-outlined">more_horiz</span>
+              </div>
+              <p class="time">8 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="title"><h3>langchain-ollama == 1.0.1.2</h3></div>
+        <div class="details"><p>
+          Changes since langchain-ollama==0.1.0<br>
+          partners/ollama: release 0.1.1 (#24910)<br>
+          core[patch], integrations[patch]: convert TypedDict to tool schema support (#24641) <br>
+          [partner]: ollama llm fix (#24790) <br>
+          …</p>
+          <a href="#">Read More</a>
+        </div>
+      </section>
+
+
+      <section class="main-news">
+      <div class="news">
+        <div class="top-header">
+          <img src="assets/icons8-github-32.png" alt="GitHub" class="icon">
+          <div class="text-container">
+            <div class="text-header">
+              <h4>Github/Github-Updates <span class="released">eleased</span></h4>
+              <span class="material-symbols-outlined">more_horiz</span>
+            </div>
+            <p class="time">8 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="title"><h3>langchain-ollama == 1.0.1.2</h3></div>
+      <div class="details"><p>
+        Changes since langchain-ollama==0.1.0<br>
+        partners/ollama: release 0.1.1 (#24910)<br>
+        core[patch], integrations[patch]: convert TypedDict to tool schema support (#24641) <br>
+        [partner]: ollama llm fix (#24790) <br>
+        …</p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+
+    
+
+    <section class="main-news">
+      <div class="news">
+        <div class="top-header">
+          <img src="assets/icons8-github-32.png" alt="GitHub" class="icon">
+          <div class="text-container">
+            <div class="text-header">
+              <h4>Github/Github-Updates <span class="released">eleased</span></h4>
+              <span class="material-symbols-outlined">more_horiz</span>
+            </div>
+            <p class="time">8 hours ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="title"><h3>langchain-ollama == 1.0.1.2</h3></div>
+      <div class="details"><p>
+        Changes since langchain-ollama==0.1.0<br>
+        partners/ollama: release 0.1.1 (#24910)<br>
+        core[patch], integrations[patch]: convert TypedDict to tool schema support (#24641) <br>
+        [partner]: ollama llm fix (#24790) <br>
+        …</p>
+        <a href="#">Read More</a>
+      </div>
+    </section>
+      
+      
+
+      </div>
+    </main>
+  </body>
+</html>
